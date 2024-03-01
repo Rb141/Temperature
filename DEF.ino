@@ -16,7 +16,7 @@ DHT dht(DHTPIN, DHTTYPE);
 
 
 void setup() {
-  // put your setup code here, to run once:
+  // Put your setup code here, to run once:
   // adding a github comment;
   Serial.begin(9600);
   Serial.println("DHT Test Successful!");
